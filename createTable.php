@@ -11,15 +11,15 @@ $sql = "CREATE TABLE scoreTable(
     PRIMARY KEY (`Matric_Number`)
 )";
 
-if($connection){
-    mysqli_select_db($connection, "OnlineScoreDb");
-    if(mysqli_query($connection, $sql)){
+if($conn){
+    mysqli_select_db($conn, "OnlineScoreDb");
+    if(mysqli_query($conn, $sql)){
         echo "scoreTable is created successfully";
     }
     else{ 
-        echo "Error creating table: ".mysqli_error($connection);
+        echo "Error creating table: ".mysqli_error($conn);
     }
-    mysqli_close($connection);
+    mysqli_close($conn);
 }
 
 ?>

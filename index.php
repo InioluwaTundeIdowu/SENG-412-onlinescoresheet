@@ -102,7 +102,7 @@
 		<a href="#">Score View</a>
 	</div>
 
-	<form class="main" action="" method="POST">
+	<form class="main" action="insert.php" method="POST">
 		
 		<table class="form-table">
             <tr>
