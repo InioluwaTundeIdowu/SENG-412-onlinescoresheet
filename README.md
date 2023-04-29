@@ -1,0 +1,1 @@
+This project is a simple PHP program that connects to a MySQL database, retrieves data from a table, and displays it in a neat format. The purpose of this project is to demonstrate how to establish database connectivity using PHP.
